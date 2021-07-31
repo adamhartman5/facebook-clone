@@ -20,7 +20,7 @@ function Header() {
       <h1>Header</h1>
 
       {/* Left */}
-      <div>
+      <div className="flex ">
         <Image
           src="https://links.papareact.com/5me"
           width={40}
@@ -28,8 +28,8 @@ function Header() {
           layout="fixed"
         />
       </div>
-      <div>
-
+      <div className="flex">
+            <SearchIcon className="h-6" />
           <input type="text" placeholder="Search Facebook" />
       </div>
 
