@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Header from '../components/Header';
+import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Facebook</title>
       </Head>
-      
+
       <Header />
 
       <main>
@@ -16,5 +16,5 @@ export default function Home() {
         {/* Widgets */}
       </main>
     </div>
-  )
+  );
 }
