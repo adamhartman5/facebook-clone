@@ -29,7 +29,7 @@ function Header() {
         <div className="flex ml-2 items-center rounded-full bg-gray-100 p-2">
           <SearchIcon className="h-6 text-gray-600" />
           <input
-            className="flex ml-2 items-center bg-transparent outline-none flex-shrink placeholder-gray-500"
+            className="hidden md:inline-flex ml-2 items-center bg-transparent outline-none flex-shrink placeholder-gray-500"
             type="text"
             placeholder="Search Facebook"
           />
@@ -48,7 +48,15 @@ function Header() {
       </div>
 
       {/* Right */}
+      <div className="flex items-center sm:space-x-2 justify-end">
+          {/* Profile pic */}
 
+          <p className="whitespace-nowrap font-semibold pr-3">Adam Hartman</p>
+          <ViewGridIcon className="icon"/>
+          <ChatIcon className="icon"/>
+          <BellIcon className="icon"/>
+          <ChevronDownIcon className="icon"/>
+      </div>
     </div>
   );
 }
